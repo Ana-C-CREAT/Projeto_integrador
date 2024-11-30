@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.loginSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  background: url(../assets/background.svg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.loginContainer {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.welcomeBox {
+  background-color: #800020;
+  color: #fff;
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeBox h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.welcomeBox p {
+  margin: 5px 0;
+}
+
+.btnPrimary {
+  background-color: #b36652;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.btnPrimary:hover {
+  background-color: #944836;
+}
+
+.forgotPassword {
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.loginBox {
+  padding: 30px;
+  background-color: #C7A795;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginBox h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: "Inder";
+  color: #fff;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Inter";
+}
+
+.registerLink {
+  color: #b36652;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Inter";
+}

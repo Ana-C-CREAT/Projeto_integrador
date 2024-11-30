@@ -1,0 +1,58 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Domo",
+            "price_per_night": 590,
+            "capacity": 2,
+            "available": true,
+            "description": "Glamping dome com vistas incríveis e conforto rústico.",
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "name": "Charrua (Bus)",
+            "price_per_night": 490,
+            "capacity": 2,
+            "available": true,
+            "description": "Ônibus transformado em um espaço acolhedor e confortável.",
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "name": "Suite Com Cozinha",
+            "price_per_night": 390,
+            "capacity": 2,
+            "available": true,
+            "description": "Suíte confortável com cozinha equipada para estadias prolongadas.",
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "name": "Chale Familia",
+            "price_per_night": 590,
+            "capacity": 4,
+            "available": true,
+            "description": "Chalé espaçoso ideal para famílias, com todas as comodidades.",
+            "quantity": 1
+        },
+        {
+            "id": 5,
+            "name": "Cabana",
+            "price_per_night": 490,
+            "capacity": 2,
+            "available": true,
+            "description": "Cabana charmosa com vistas panorâmicas da região.",
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "name": "Estacionamento Para Overlanders",
+            "price_per_night": 100,
+            "capacity": 1,
+            "available": true,
+            "description": "Espaço para estacionar veículos Overlanders com segurança.",
+            "quantity": 1
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "room_id": 1,
+        "customer_name": "Gabriel Germano"
+    },
+    {
+        "id": 2,
+        "room_id": 1,
+        "customer_name": "Lucas Gabriel"
+    },
+    {
+        "id": 3,
+        "room_id": 2,
+        "customer_name": "Gabriel Germano"
+    },
+    {
+        "id": 4,
+        "room_id": 1,
+        "customer_name": "Gabriel Germano"
+    }
+]

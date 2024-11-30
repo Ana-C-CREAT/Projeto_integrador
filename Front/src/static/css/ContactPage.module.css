@@ -1,0 +1,112 @@
+:root {
+  --bg: 255, 255, 255;
+  --color-dark: 51, 51, 51;
+  --color-light: 240, 240, 240;
+  --primary-color: #007bff;
+  --secondary-color: #f8f9fa;
+  --accent-color: #8B0000;
+  --text-color: rgba(var(--color-dark), 0.8);
+  --header-bg: rgba(var(--bg), 0.7);
+  --card-bg: rgba(var(--bg), 0.9);
+}
+
+.contactPage {
+  margin: 20px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  color: var(--text-color);
+  background: url(../assets/background.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  color: var(--color-dark);
+  background-color: var(--header-bg);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container para itens de contato */
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo individual para os cards de contato */
+.contactItem {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contactItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para os títulos dentro dos itens de contato */
+.contactItem h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-dark);
+}
+
+.contactItem p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.contactItem a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactItem a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para mensagens de erro */
+.error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .contactPage {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .contactItem {
+      padding: 15px;
+  }
+
+  .contactItem h3 {
+      font-size: 1rem;
+  }
+
+  .contactItem p {
+      font-size: 0.9rem;
+  }
+}

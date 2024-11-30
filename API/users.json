@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Gabriel Germano",
+        "email": "gabriel@example.com",
+        "password": "teste12#"
+    },
+    {
+        "id": 2,
+        "name": "Bruno Oliveira",
+        "email": "bruno@example.com",
+        "password": "123456"
+    },
+    {
+        "id": 3,
+        "name": "Carla Mendes",
+        "email": "carla@example.com",
+        "password": "carla2024"
+    },
+    {
+        "id": 4,
+        "name": "Diego Costa",
+        "email": "diego@example.com",
+        "password": "segredo"
+    },
+    {
+        "id": 5,
+        "name": "Elaine Santos",
+        "email": "elaine@example.com",
+        "password": "senha123"
+    },
+    {
+        "id": 1732707229368,
+        "name": "Lucas Gabriel",
+        "email": "lucas@example.com",
+        "password": "teste12#"
+    },
+    {
+        "id": 1732767177784,
+        "name": "Gabriel Lucas Bento Germano",
+        "email": "germano@example.com",
+        "password": "teste12#"
+    }
+]
